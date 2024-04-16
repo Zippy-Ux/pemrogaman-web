@@ -49,3 +49,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     exit;
 }
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Success</title>
+<link rel="stylesheet" href="borrow_style.css">
+</head>
+<body>
+<div class="success-container">
+    <div class="success-box">
+        <h2>Anda Berhasil Meminjam Buku!</h2>
+        <p>Terima kasih telah melakukan peminjaman buku.</p>
+        <a href="dashboard.php">Back to home</a>
+    </div>
+</div>
+</body>
+</html>

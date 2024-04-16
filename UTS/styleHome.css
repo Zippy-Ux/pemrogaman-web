@@ -68,7 +68,7 @@ body {
     margin: 5px 0;
 }
 
-.borrow-btn, .return-btn {
+.return-btn {
     background-color: #4CAF50;
     color: #fff;
     padding: 8px 16px;
@@ -77,24 +77,25 @@ body {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-
-.borrow-btn:hover, .return-btn:hover {
+.return-btn:hover {
     background-color: #3e8e41;
 }
 
-.borrow-btn,
+
 .return-btn {
     background-color: #4CAF50;
     color: #fff;
-    padding: 10px 20px; /* Adjust padding for better button size */
+    padding: 10px 20px; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    align-self: flex-end; /* Align button to the end of the flex container */
+    align-self: flex-end; 
 }
 
-.borrow-btn:hover,
+
 .return-btn:hover {
     background-color: #3e8e41;
 }
+
+
